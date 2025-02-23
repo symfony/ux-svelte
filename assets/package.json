@@ -1,9 +1,18 @@
 {
     "name": "@symfony/ux-svelte",
     "description": "Integration of Svelte in Symfony",
-    "main": "dist/register_controller.js",
-    "version": "1.0.0",
     "license": "MIT",
+    "version": "2.23.0",
+    "keywords": [
+        "symfony-ux"
+    ],
+    "homepage": "https://ux.symfony.com/svelte",
+    "repository": "https://github.com/symfony/ux-svelte/tree/2.x",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/register_controller.js",
     "scripts": {
         "build": "node ../../../bin/build_package.js .",
         "watch": "node ../../../bin/build_package.js . --watch",
