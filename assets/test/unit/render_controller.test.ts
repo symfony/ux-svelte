@@ -10,9 +10,9 @@
 import { Application, Controller } from '@hotwired/stimulus';
 import { getByTestId, waitFor } from '@testing-library/dom';
 import { afterEach, describe, expect, it } from 'vitest';
-import { clearDOM, mountDOM } from '../../../../test/stimulus-helpers';
-import SvelteController from '../src/render_controller';
-import MyComponent from './fixtures/MyComponent.svelte';
+import { clearDOM, mountDOM } from '../../../../../test/stimulus-helpers';
+import SvelteController from '../../src/render_controller';
+import MyComponent from '../fixtures/MyComponent.svelte';
 
 // Controller used to check the actual controller was properly booted
 class CheckController extends Controller {
